@@ -1,0 +1,47 @@
+{
+	"projectName": "testProject",
+	"isPhone": false,
+	"lib": [{
+			"type": "js",
+			"fileName": "default.js",
+			"content": {
+				"path": "",
+				"str": ""
+			}
+		},
+		{
+			"type": "css",
+			"fileName": "default.css",
+			"content": {
+				"path": "./source/css/default.css",
+				"str": ""
+			}
+		}
+	],
+	"public": [{
+			"name": "顶栏",
+			"fileName": "top"
+		},
+		{
+			"name": "底栏",
+			"fileName": "fooder"
+		}
+	],
+	"page": [{
+			"name": "首页",
+			"fileName": "index",
+			"content": {
+				"path": "./source/templatel.html",
+				"str": ""
+			}
+		},
+		{
+			"name": "关于",
+			"fileName": "",
+			"content": {
+				"path": "./source/templatel.html",
+				"str": ""
+			}
+		}
+	]
+}
