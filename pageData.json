@@ -10,10 +10,58 @@
 			}
 		},
 		{
+			"type": "js",
+			"fileName": "jquery.min.js",
+			"content": {
+				"path": "./source/js/jquery.min.js",
+				"str": ""
+			}
+		},
+		{
+			"type": "js",
+			"fileName": "swiper.min.js",
+			"content": {
+				"path": "./source/js/swiper.min.js",
+				"str": ""
+			}
+		},
+		{
+			"type": "js",
+			"fileName": "wow.js",
+			"content": {
+				"path": "./source/js/wow.js",
+				"str": ""
+			}
+		},
+		{
 			"type": "css",
 			"fileName": "default.css",
 			"content": {
 				"path": "./source/css/default.css",
+				"str": ""
+			}
+		},
+		{
+			"type": "css",
+			"fileName": "animate.css",
+			"content": {
+				"path": "./source/css/animate.css",
+				"str": ""
+			}
+		},
+		{
+			"type": "css",
+			"fileName": "bootstrap_v3.css",
+			"content": {
+				"path": "./source/css/bootstrap_v3.css",
+				"str": ""
+			}
+		},
+		{
+			"type": "css",
+			"fileName": "swiper.min.css",
+			"content": {
+				"path": "./source/css/swiper.min.css",
 				"str": ""
 			}
 		}

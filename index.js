@@ -4,7 +4,6 @@ const path = require("path");
 const pinyin = require("tiny-pinyin");
 const fs = require("fs");
 const ejs = require("ejs");
-const chokidar = require("chokidar");
 
 const args = process.argv.slice(2);
 
@@ -201,8 +200,7 @@ function httpServer() {
 			res.send("404 - 没有这个页面")
 		}
 	})
-
 	app.listen(port, () => {
-		console.log(`访问此地址查看效果 http://localhost:${port}`)
+		console.log(`进入开发模式 http://localhost:${port}`)
 	})
 }
