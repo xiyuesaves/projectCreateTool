@@ -1,0 +1,67 @@
+const data = {
+	"projectName":"testProject",
+	"isPhone":false,
+	"lib":[
+		{
+			type:"js",
+			name:"default.js",
+			data:{
+				path:"",
+				url:"",
+				str:""
+			}
+		},
+		{
+			type:"css",
+			name:"default.css",
+			data:{
+				path:"",
+				url:"",
+				str:""
+			}
+		}
+	],
+	"public":[
+		{
+			name:"顶栏",
+			fileName:"top.ejs"
+		},
+		{
+			name:"底栏",
+			fileName:"fooder.ejs"
+		}
+	],
+	"page":[
+		{
+			name:"首页",
+			fileName:"index",
+			content:{
+				path:"",
+				url:"",
+				str:""
+			}
+		},
+		{
+			name:"关于",
+			fileName:"",
+			content:{
+				path:"",
+				url:"",
+				str:""
+			}
+		}
+	],
+	"pageTemplate":`
+<!DOCTYPE html>
+<html>
+<head>
+	<title><%-name%></title>
+	<meta charset="utf-8">
+{{public}}
+</head>
+<body>
+{{body}}
+</body>
+</html>`
+}
+module.exports = data;
