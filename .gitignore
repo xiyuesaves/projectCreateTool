@@ -8,3 +8,4 @@ dist/
 src/
 .deploy*/
 _multiconfig.yml
+source/
